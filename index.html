@@ -12,7 +12,8 @@
   <body>
     <div class="row">
     <div class="left">
-      <h1 style="font-weight: 700;">Learn to code by <br>watching others</h1>
+      <h1 style="font-weight: 700;
+      font-size: 50px;">Learn to code by <br>watching others</h1>
       <p>
         See how experienced developers solve problems in real-time.<br> Watching
         scripted tutorials is great, but understanding how <br>developers think in
@@ -24,21 +25,45 @@
       <button><b>Try it free 7 days</b> then $20/mo. thereafter.</button>
       <div>
         <table>
-          <form>
+          <form id="signup" method="post" action="index.html">
             <tr>
-              <td><input type="text" placeholder="First name" required/></td>
+              <td class="field">
+                <div class="form-input" >
+                  <input type="text" id="firstname" placeholder="First name" />
+                  <span><img src="assets/icon-error.svg"/></span>
+                  <br><small></small>
+                </div><br><small></small>
+                </td>
               </tr>
               <tr>
-              <td><input type="text" placeholder="Last name" required/></td>
+              <td class="field">
+                <div class="form-input" >
+                <input type="text" id="lastname" placeholder="Last name" />
+                <span><img src="assets/icon-error.svg"/></span>
+                <br><small></small>
+                </div>
+                </td>
             </tr>
             <tr>
-              <td><input type="email" placeholder="Email Address" required/></td>
+              <td class="field">
+                <div class="form-input" >
+                <input type="email" id="email" placeholder="Email Address" />
+                <span><img src="assets/icon-error.svg" id="image"/></span>
+                <br><small></small>
+                </div>
+                </td>
             </tr>
             <tr>
-              <td><input type="password" placeholder="Password" required/></td>
+              <td class="field">
+                <div class="form-input" >
+                <input type="password" id="password" placeholder="Password" />
+                <span><img src="assets/icon-error.svg"/></span>
+                <br><small></small>
+                </div>
+                </td>
               </tr>
               <tr>
-              <td><input type="submit" value="CLAIM YOUR FREE TRIAL" />
+              <td class="field"><input type="submit" id="submit" value="CLAIM YOUR FREE TRIAL"/>
             <p style="color:rgb(168, 164, 164); font-size:10px; text-align: center; padding: 3px;">By clicking the button, you are agreeing to our <a class="TandS">Terms and Services</a></p></td>
                 </tr>
             </tr>
@@ -47,5 +72,7 @@
       </div>
     </div>
     </div>
+    <script src="just.js"></script>
   </body>
-</html>
+</html> 
+

@@ -18,7 +18,7 @@ body{
 }
 .left{
     flex: 50%;
-    padding: 70px;
+    padding: 120px;
     text-align: justify;
     height: auto;
     color: white;
@@ -27,7 +27,7 @@ body{
 
 .right{
     flex: 50%;
-    padding: 70px;
+    padding: 7px;
     justify-items: center;
     height: 300px;
 }
@@ -38,33 +38,56 @@ body{
 button{
     background: hsl(248, 32%, 49%);
     border: 1px solid hsl(249, 10%, 26%);
-    border-radius: 5px;
+    border-radius: 7px;
     padding: 20px;
     margin-top: 10px;
     cursor: pointer;
-    width: 340px;
+    font-family: 'Poppins', sans-serif;
+    width: 465px;
     color: whitesmoke;
     margin-bottom: 20px;
     box-shadow: 0px 5px 5px rgb(156, 138, 138);
 }
-input{
+.form-input{
     background: #fff;
-    border: 1px solid hsl(246, 25%, 77%);
     border-radius: 5px;
-    padding: 10px;
+    border: 1px solid hsl(246, 25%, 77%);
+    padding: 0px;
     margin-top: 10px;
-    width: 300px;
+    width: 400px;
 }
+
+div small{
+    color:hsl(0, 100%, 74%);
+    left: 150px;
+    left: 150px;
+}
+
+input{
+    border: 0px;
+    padding: 10px;
+    width: 350px;
+    border: 0px solid hsl(246, 25%, 77%);
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    display: none;
+}
+
 table{
     background-color: white;
-    border-radius: 5px;
-    padding: 20px;
+    border-radius: 7px;
+    padding: 30px;
     box-shadow: 0px 5px 5px rgb(156, 138, 138);
 }
 input[type="submit"]{
     background: hsl(154, 59%, 51%);
     color: white;
     border: 1px solid hsl(246, 25%, 77%);
+    font-family: 'Poppins', sans-serif;
+    width: 400px;
+    
     
 }
 @media screen and (max-width: 375px){
