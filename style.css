@@ -51,23 +51,26 @@ button{
 .form-input{
     background: #fff;
     border-radius: 5px;
-    border: 1px solid hsl(246, 25%, 77%);
+    border: 0px solid hsl(246, 25%, 77%);
     padding: 0px;
     margin-top: 10px;
     width: 400px;
 }
 
-div small{
+small{
     color:hsl(0, 100%, 74%);
     left: 150px;
-    left: 150px;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    font: italic;
 }
 
 input{
     border: 0px;
     padding: 10px;
-    width: 350px;
-    border: 0px solid hsl(246, 25%, 77%);
+    width: 395px;
+    border: 1px solid hsl(246, 25%, 77%);
     border-radius: 5px;
     font-family: 'Poppins', sans-serif;
 }
@@ -86,10 +89,10 @@ input[type="submit"]{
     color: white;
     border: 1px solid hsl(246, 25%, 77%);
     font-family: 'Poppins', sans-serif;
-    width: 400px;
-    
-    
+    width: 400px;  
+    cursor: pointer; 
 }
+
 @media screen and (max-width: 375px){
     body{
     margin: 0;
